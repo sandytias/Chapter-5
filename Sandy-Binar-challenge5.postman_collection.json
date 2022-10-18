@@ -1,0 +1,24 @@
+{
+  "info": {
+    "_postman_id": "85b8b390-f0a2-4d12-8843-408bfbcbc05d",
+    "name": "Sandy-Binar-challenge5",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "17846090"
+  },
+  "item": [
+    {
+      "name": "get API",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8000/API",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["API"]
+        }
+      },
+      "response": []
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;700&display=swap");
+
+.main {
+  overflow: hidden;
+  background-position: center;
+  min-height: 150vh;
+  background: url(assets/main-bg.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+}
+
+.nav-link {
+  color: #fff;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  display: flex;
+}
+
+h1 {
+  color: #fff;
+  font-size: 80px;
+  font-family: "Bebas Neue";
+  position: relative;
+  top: 100px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 36px;
+  font-family: "Bebas Neue";
+  letter-spacing: 0.2em;
+}
+
+h3 {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Bebas Neue";
+}
+
+h4 {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Bebas Neue";
+}
+
+h5 {
+  color: #fff;
+  font-family: "Bebas Neue";
+}
+
+p {
+  color: #fff;
+  font-size: 36px;
+  font-family: "Bebas Neue";
+  position: relative;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+#logo {
+  width: 50px;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.btn-warning {
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 200px;
+  font-weight: bold;
+  font-family: "Open Sans";
+}
+
+#about.has-img-bg {
+  overflow: hidden;
+  background-position: center;
+  height: 150vh;
+  background: url(assets/the-games-bg.jpg);
+  background-size: cover;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background-color: #ffffff;
+}
+
+#features.has-img-bg {
+  overflow: hidden;
+  background-position: center;
+  height: 150vh;
+  background: url(assets/features.jpg);
+  background-size: cover;
+}
+
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: center;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 100%);
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
+
+.fw-bold {
+  color: #f7a90b;
+  font-family: "Bebas Neue";
+  margin-bottom: 10;
+}
+
+#system.has-img-bg {
+  overflow: hidden;
+  background-position: center;
+  height: 150vh;
+  background: url(assets/requirements.png);
+  background-size: cover;
+}
+
+.item1 {
+  grid-area: OS;
+}
+.item2 {
+  grid-area: Processor;
+}
+.item3 {
+  grid-area: Memory;
+}
+.item4 {
+  grid-area: Storage;
+}
+.item5 {
+  grid-area: Graphic;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "OS Processor"
+    "Memory Storage"
+    "Graphic Graphic";
+  gap: 1px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  padding: 50px 0;
+  font-size: 30px;
+}
+
+#scores.has-img-bg {
+  overflow: hidden;
+  background-position: center;
+  height: 150vh;
+  background: url(assets/top-score-bg.png);
+  background-size: cover;
+}
+
+.container-score {
+  position: relative;
+  /* top: 35%;
+    left: -25%;
+    width: 30%; */
+  margin: 0;
+}
+
+.container-score p {
+  padding: 1rem 0;
+}
+
+.t-score {
+  height: 100vh;
+  gap: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-title {
+  margin-bottom: 30px;
+  padding: 50px;
+}
+
+.score-title h1 {
+  padding: 20px 20px 20px 0;
+  text-transform: uppercase;
+  color: white;
+  font-size: 56px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.score-title p {
+  padding: 20px 20px 20px 0;
+  color: white;
+  width: 500px;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.score-title button {
+  width: 200px;
+  height: 60px;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.card-title {
+  width: 11rem;
+  position: absolute;
+}
+
+.card-subtitle {
+  padding-top: 1.5rem;
+}
+
+.card {
+  background: rgba(25, 26, 27, 0.8);
+  border-radius: 10px;
+  width: 450px;
+  height: 200px;
+}
+.card-twitter {
+  display: inline;
+  max-width: 20px;
+  max-height: 15px;
+  left: 10rem;
+  position: relative;
+}
+
+.card-name {
+  padding-right: 13rem;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.top-score {
+  left: 50%;
+  position: relative;
+  max-width: 40%;
+}
+
+.profile {
+  position: relative;
+  width: 5rem;
+}
+.image {
+  width: 100%;
+  position: relative;
+}
+.ellipse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -45%);
+}
+
+.container-card {
+  font-size: 14px;
+  font-family: "Bebas Neue";
+}
+
+.container-card {
+  margin-right: 300px;
+}
+
+.card-evan {
+  font-size: 12px;
+  font-family: "Bebas Neue";
+}
+
+#quotes {
+  background-position: center;
+  height: 200vh;
+  width: 100%;
+  background: url(assets/newsletter.png);
+  background-size: cover;
+}
+
+.page-2 {
+  margin-left: 50px;
+  margin-right: 0;
+  margin-top: 200px;
+  padding-right: 0;
+}
+
+#carouselid {
+  width: 1500px;
+  height: 2000px;
+}
+
+.subtitle-p {
+  margin: 0 0;
+  font-size: 12px;
+}
+
+.features {
+  margin-left: 700px;
+  margin-top: 100px;
+}
+
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+  margin-right: -10px;
+  padding-left: 33px;
+  height: 85%;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 90%);
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
+
+.text-yellow {
+  font-family: "Bebas Neue";
+  font-size: 18px;
+  color: #f7a90b;
+}
+
+.isi {
+  font-family: "Bebas Neue";
+  font-size: 14px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tabel {
+  margin-top: 10%;
+  padding: 0 1rem;
+}
+
+.specs {
+  margin-top: 150px;
+}
+
+.form-input {
+  width: 500px;
+}
+
+.btn-subs {
+  width: 250px;
+  height: 55px;
+}
+
+.text-subs {
+  font-size: 12px;
+  font-family: "Open Sans";
+}
+
+.text-score {
+  font-size: 12px;
+  font-family: "Open Sans";
+  margin: 0;
+}
